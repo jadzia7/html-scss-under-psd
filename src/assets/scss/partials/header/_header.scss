@@ -1,0 +1,12 @@
+header{
+  max-width: 1170px;
+  margin: 23px auto;
+  display: flex;
+  align-items: center;
+  @media screen and (max-width: 1170px){
+    padding: 0 20px;
+  }
+  @media screen and (max-width: 567px){
+    justify-content: center;
+  }
+}
